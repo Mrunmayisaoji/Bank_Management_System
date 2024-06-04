@@ -1,0 +1,7 @@
+dev/codescreen/Model/transactionResponseModelTest.class
+dev/codescreen/Service/transactionServiceImplTest.class
+dev/codescreen/Controller/RestFulControllerTest.class
+dev/codescreen/Model/accountModelTest.class
+dev/codescreen/Model/userModelTest.class
+dev/codescreen/Model/pingModelTest.class
+dev/codescreen/Model/eventSourcingPassbookModelTest.class

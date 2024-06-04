@@ -1,0 +1,64 @@
+-------------------------------------------------------------------------------
+Test set: dev.codescreen.Dao.transactionDaoImplTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 1.997 s <<< FAILURE! - in dev.codescreen.Dao.transactionDaoImplTest
+testCheckBalanceTransaction  Time elapsed: 1.938 s  <<< ERROR!
+org.mockito.exceptions.misusing.MissingMethodInvocationException: 
+
+when() requires an argument which has to be 'a method call on a mock'.
+For example:
+    when(mock.getArticles()).thenReturn(articles);
+
+Also, this error might show up because:
+1. you stub either of: final/private/equals()/hashCode() methods.
+   Those methods *cannot* be stubbed/verified.
+   Mocking methods declared on non-public parent classes is not supported.
+2. inside when() you don't call method on mock but on some other object.
+
+	at dev.codescreen.Dao.transactionDaoImplTest.setUp(transactionDaoImplTest.java:44)
+
+testDepositTransaction  Time elapsed: 0.007 s  <<< ERROR!
+org.mockito.exceptions.misusing.MissingMethodInvocationException: 
+
+when() requires an argument which has to be 'a method call on a mock'.
+For example:
+    when(mock.getArticles()).thenReturn(articles);
+
+Also, this error might show up because:
+1. you stub either of: final/private/equals()/hashCode() methods.
+   Those methods *cannot* be stubbed/verified.
+   Mocking methods declared on non-public parent classes is not supported.
+2. inside when() you don't call method on mock but on some other object.
+
+	at dev.codescreen.Dao.transactionDaoImplTest.setUp(transactionDaoImplTest.java:44)
+
+testWithdrawTransaction  Time elapsed: 0.003 s  <<< ERROR!
+org.mockito.exceptions.misusing.MissingMethodInvocationException: 
+
+when() requires an argument which has to be 'a method call on a mock'.
+For example:
+    when(mock.getArticles()).thenReturn(articles);
+
+Also, this error might show up because:
+1. you stub either of: final/private/equals()/hashCode() methods.
+   Those methods *cannot* be stubbed/verified.
+   Mocking methods declared on non-public parent classes is not supported.
+2. inside when() you don't call method on mock but on some other object.
+
+	at dev.codescreen.Dao.transactionDaoImplTest.setUp(transactionDaoImplTest.java:44)
+
+testGetPassbookEntries  Time elapsed: 0.004 s  <<< ERROR!
+org.mockito.exceptions.misusing.MissingMethodInvocationException: 
+
+when() requires an argument which has to be 'a method call on a mock'.
+For example:
+    when(mock.getArticles()).thenReturn(articles);
+
+Also, this error might show up because:
+1. you stub either of: final/private/equals()/hashCode() methods.
+   Those methods *cannot* be stubbed/verified.
+   Mocking methods declared on non-public parent classes is not supported.
+2. inside when() you don't call method on mock but on some other object.
+
+	at dev.codescreen.Dao.transactionDaoImplTest.setUp(transactionDaoImplTest.java:44)
+

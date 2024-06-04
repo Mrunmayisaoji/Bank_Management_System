@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: dev.codescreen.Controller.RestFulControllerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.149 s - in dev.codescreen.Controller.RestFulControllerTest
